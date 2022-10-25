@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@500&display=swap'); 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family: 'Source Sans Pro', sans-serif; 
 }
 
 header{
@@ -26,11 +29,13 @@ ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-decoration: none;
 }
 
 li{
     list-style: none;
     color:white;
+    font-size: 20px;
 }
 
 .carousel-item{
@@ -170,3 +175,24 @@ li{
     padding:2vw;
     text-align: center;
 }
+
+.container-footer{
+    width: 100%;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6a040f;
+    color: white;
+}
+
+.container-footer img{
+    width: 25vw;
+}
+
+.container-footer h4{
+    font-size: 18px;
+    margin-top: 2vw;
+}
+
+
