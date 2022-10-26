@@ -23,21 +23,72 @@ header{
     height:10vh;
 }
 
+
 ul{
     width:50vw;
     height:10vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bolder;
+    opacity: 0.7;
+}
+
+span:hover{
+    cursor:pointer;
+}
+
 li{
+    width:10vw;
     list-style: none;
     color:white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
+    padding: 2vw;
+
 }
 
+.subMenu{
+    width:12vw;
+    height:15vh;
+    position: absolute;
+    top:7vh;
+    right:19vh;
+    background-color: #6a040f;
+    display: none;
+
+}
+
+.subMenu li{
+    width:12vw;
+    height:6vh;
+    margin-top:0.5vh;
+    margin-bottom:1vh;
+    text-align: center;
+    font-size: 15px;
+    padding:1vh;
+}
+
+.menuTopic:hover a{
+    text-decoration: none;
+    color:#ffff;
+}
+
+.subMenu li:hover{
+    font-weight: bolder;
+    opacity: 0.7;
+}
+
+.menuTopic:hover .subMenu{
+    display: block;
+}
 
 .container-footer{
     width: 100%;
@@ -54,6 +105,7 @@ li{
 }
 
 .container-footer h4{
-    font-size: 18px;
-    margin-top: 2vw;
+    font-size: 16px;
+    margin-top: 2vh;
+    margin-bottom:1vh;
 }
