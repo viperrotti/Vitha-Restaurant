@@ -9,7 +9,6 @@
 
 header{
     background-color: #6a040f;
-
 }
 
 .headerContainer{
@@ -95,7 +94,7 @@ li{
     display: flex;
     justify-content: center;
     margin-top: 8vh;
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: #6a040f;
 }
 
@@ -109,33 +108,32 @@ li{
 }
 
 .forms form{
-    width: 40vw;
+    width: 30vw;
     height: 50vh;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 16px;
-
+    font-size: 1.3vw;
 }
 
 .forms input{
     margin-top: 1vh;
-    margin-bottom: 2vh;
-    height: 6vh;
-    font-size: 16px;
+    margin-bottom: 3vh;
+    height: 8vh;
+    font-size: 1.3vw;
 }
 
 .forms textarea{
     margin-top:1vh;
-    height:10vh;
+    height:12vh;
 }
 
 button{
-    margin-top: 2vh;
-    width: 10vw;
-    height: 4vh;
+    margin-top: 3vh;
+    width: 8vw;
+    height: 6vh;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 1.3vw;
     margin-left: 15vw;
 }
 
@@ -147,7 +145,7 @@ button{
 
 .socialmedia a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.5vw;
     margin-right: 3vw;
     color: black;
 
