@@ -158,7 +158,7 @@ li{
 
 .background{
     height:60vh;
-    background-image: url('../Images/happyhour/happyhourPhoto.jpg');
+    background-image: url('../Images/backImageC.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -229,9 +229,25 @@ li{
     text-align: center;
 }
 
+.containerLogo{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:15vh;
+}
+
+.containerLogo a{
+    scroll-behavior: smooth;
+}
+
+.logoMain{
+    border-radius: 50%;
+    height:25vh;
+    border:solid #6a040f;
+}
+
 .container-footer{
     width: 100%;
-    margin-top: 15vh;
+    margin-top: 10vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

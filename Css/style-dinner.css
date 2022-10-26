@@ -52,7 +52,6 @@ li{
     text-decoration: none;
     font-size: 17px;
     padding: 2vw;
-
 }
 
 .subMenu{
@@ -63,7 +62,6 @@ li{
     right:19vh;
     background-color: #6a040f;
     display: none;
-
 }
 
 .subMenu li{
@@ -90,9 +88,27 @@ li{
     display: block;
 }
 
+
+
+.containerLogo{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:10vh;
+}
+
+.containerLogo a{
+    scroll-behavior: smooth;
+}
+
+.logoMain{
+    border-radius: 50%;
+    height:25vh;
+    border:solid #6a040f;
+}
+
 .container-footer{
     width: 100%;
-    margin-top: 15vh;
+    margin-top: 10vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
