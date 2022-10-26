@@ -186,7 +186,7 @@ li{
 .containerLogo{
     display: flex;
     justify-content: flex-end;
-    margin-top:10vh;
+    margin-top: -7vh;
 }
 
 .containerLogo a{

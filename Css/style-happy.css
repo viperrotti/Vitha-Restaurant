@@ -214,7 +214,7 @@ li{
 .containerLogo{
     display: flex;
     justify-content: flex-end;
-    margin-top:10vh;
+    margin-top: -7vh;
 }
 
 .containerLogo a{
@@ -223,7 +223,7 @@ li{
 
 .logoMain{
     border-radius: 50%;
-    height:25vh;
+    height:20vh;
     border:solid #6a040f;
 }
 
