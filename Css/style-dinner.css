@@ -50,27 +50,27 @@ li{
     list-style: none;
     color:white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.9vw;
     padding: 2vw;
 }
 
 .subMenu{
-    width:12vw;
+    width:15vw;
     height:15vh;
     position: absolute;
     top:7vh;
-    right:19vh;
+    right:13vh;
     background-color: #6a040f;
     display: none;
 }
 
 .subMenu li{
-    width:12vw;
+    width:15vw;
     height:6vh;
     margin-top:0.5vh;
     margin-bottom:1vh;
     text-align: center;
-    font-size: 15px;
+    font-size: 1.9vw;
     padding:1vh;
 }
 
@@ -88,6 +88,96 @@ li{
     display: block;
 }
 
+/* ---menu---- */
+
+.page2{
+    height: 240vh;
+    width: 100%;
+    padding-top: 25vh;
+}
+
+.cardapio{
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.content-menu{
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+.item{
+    width: 80%;
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo{
+    padding-top: 8vh;
+    padding-bottom: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h2{
+    color: black;
+    font-size: 3vw;
+    margin: 2vh;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 400;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 0.2rem solid rgb(100, 93, 85); */
+    height: 35vh;
+    width: 70vw;
+}
+
+.item img{
+    width: 15vw;
+    /* border: 0.3rem solid rgb(100, 93, 85); */
+    border-radius: 1vh;
+}
+
+.item img:hover{
+    width: 17vw;
+    border-radius: 1vh;
+}
+
+
+.dash{
+    width: 22vw;
+    border:solid #6a040f;
+}
+
+.descricao{
+    height: 22vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 0.3rem solid rgb(100, 93, 85); */
+}
+
+.descricao h4{
+    color: black;
+    font-size: 2vw;
+    padding-left: 2vw;
+}
+
+.descricao p{
+    color: black;
+    font-size: 1.6vw;
+    padding-left: 2vw;
+    text-align: justify;
+}
+/* ------ */
 
 
 .containerLogo{

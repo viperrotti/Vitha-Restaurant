@@ -9,6 +9,7 @@
 
 header{
     background-color: #6a040f;
+
 }
 
 .headerContainer{
@@ -51,29 +52,27 @@ li{
     list-style: none;
     color:white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.9vw;
     padding: 2vw;
-
 }
 
 .subMenu{
-    width:12vw;
+    width:15vw;
     height:15vh;
     position: absolute;
     top:7vh;
-    right:19vh;
+    right:13vh;
     background-color: #6a040f;
     display: none;
-
 }
 
 .subMenu li{
-    width:12vw;
+    width:15vw;
     height:6vh;
     margin-top:0.5vh;
     margin-bottom:1vh;
     text-align: center;
-    font-size: 15px;
+    font-size: 1.9vw;
     padding:1vh;
 }
 
