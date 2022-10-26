@@ -90,9 +90,12 @@ li{
     display: block;
 }
 
+/* .carousel{
+    margin-top:7vh;
+} */
 
 .carousel-item{
-    margin-top: 2vh;
+    margin-top:2vh;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +104,7 @@ li{
 .carouselImages{
     margin-left:6vw;
     width:90%;
-    height:90vh;
+    height:85vh;
 }
 
 .carousel-control-prev, .carousel-control-next{
