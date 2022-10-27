@@ -106,12 +106,12 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;  
-    margin-top: 5vh;
+    margin-top: 9vh;
 }
 
 .forms{
     width: 60vw;
-    height: 65vh;
+    height: 70vh;
     background-color: #f4f1de;
     display: flex;
     align-items: center;
@@ -120,23 +120,23 @@ li{
 
 .forms form{
     width: 40vw;
-    height: 55vh;
+    height: 60vh;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
 }
 
 .forms input{
     margin-top: 1vh;
     margin-bottom: 3vh;
-    height: 8vh;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
 }
 
-.forms textarea{
+.comments{
     margin-top:1vh;
-    height:12vh;
+    height:25vh;
+    font-size: 1.4vw;
 }
 
 button{
@@ -151,7 +151,7 @@ button{
 .socialmedia{
     display: flex;
     width: 30vw;
-    height: 65vh;
+    height: 70vh;
     flex-direction: column;
     justify-content: space-evenly;
     background-color: #6a040f;
@@ -253,7 +253,7 @@ button{
     
     .forms form{
         width: 70vw;
-        height: 55vh;
+        height: 60vh;
         display:flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -268,8 +268,9 @@ button{
         font-size: 3.2vw;
     }
     
-    .forms textarea{
-        height:20vh;
+    .comments{
+        height:30vh;
+        font-size: 3.2vw;
     }
     
     button{
