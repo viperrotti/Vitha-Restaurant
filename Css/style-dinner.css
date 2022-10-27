@@ -113,9 +113,12 @@ li{
 
 .item{
     width: 80%;
-    padding-top: 4vh;
+    padding-top: 3vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 0.2rem solid rgb(100, 93, 85); */
+    height: 35vh;
 }
 
 .titulo{
@@ -136,13 +139,6 @@ li{
     text-align: center;
 }
 
-.item{
-    display: flex;
-    justify-content: space-evenly;
-    /* border: 0.2rem solid rgb(100, 93, 85); */
-    height: 35vh;
-    width: 70vw;
-}
 
 .item img{
     width: 15vw;
@@ -218,4 +214,104 @@ li{
     font-size: 1.2vw;
     margin-top: 2vh;
     margin-bottom:1vh;
+}
+
+@media(max-width: 800px) and (min-width: 360px){
+    
+    /* .page2{
+        height: 70vh;
+        width: 100%;
+        padding-top: 25vh;
+    } */
+
+    .content-menu{
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+    }
+    
+    .item{
+        width: 100%;
+        height: 55vh;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f4f1de;
+    }
+    
+   
+    .titulo h2{
+        font-size: 6vw;
+    }
+
+    .item-image{
+        /* border: 0.3rem solid rgb(100, 93, 85); */
+        display: flex;
+    }
+    
+    .item img{
+        width: 80%;
+        /* border: 0.3rem solid rgb(100, 93, 85); */
+        border-radius: 0vh;
+        margin:auto;
+    }
+    
+    .item img:hover{
+        width: 80%;
+        border-radius: 0vh;
+    }
+    
+    
+    .dash{
+        width: 25vw;
+        border:solid #6a040f;
+    }
+    
+    .descricao{
+        height: 22vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .descricao h4{
+        color: black;
+        font-size: 5.5vw;
+        margin-top: 2.5vh;
+        text-align: center;
+    }
+    
+    .descricao p{
+        color: black;
+        font-size: 4vw;
+        padding: 3vw;
+        text-align: center;
+    }
+
+    /* ---- */
+
+    .logoMain{
+        border-radius: 50%;
+        height:20vh;
+        border:solid #6a040f;
+    }
+    
+    .container-footer{
+        margin-top: 5vh;
+    }
+    
+    .container-footer img{
+        width: 30vw;
+    }
+    
+    .container-footer h4{
+        font-size: 3.2vw;
+        margin-top: 2vh;
+        margin-bottom:1vh;
+    }
+
+    .container-footer p{
+        font-size: 2.8vw;
+    }  
 }
