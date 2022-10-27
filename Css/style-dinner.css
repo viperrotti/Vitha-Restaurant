@@ -223,17 +223,20 @@ li{
     }
     
     ul{
+        width:70vw;
         justify-content: space-evenly;
+        margin-right: 3vh;
     }
     
     li{
         width:10vw;
         font-size: 4.2vw;
+        padding-right: 10vh;;
     }
     
     .subMenu{
         width:35vw;
-        right:5vh;
+        right:7vh;
     }
     
     .subMenu li{
@@ -310,6 +313,7 @@ li{
         border-radius: 50%;
         height:20vh;
         border:solid #6a040f;
+        margin-top: 2vh;
     }
     
     .container-footer{
