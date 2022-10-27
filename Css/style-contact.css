@@ -9,6 +9,8 @@
 
 header{
     background-color: #6a040f;
+    position: sticky;
+    z-index: 1;
 }
 
 .headerContainer{
@@ -56,17 +58,17 @@ li{
 }
 
 .subMenu{
-    width:15vw;
+    width:12vw;
     height:15vh;
     position: absolute;
     top:7vh;
-    right:13vh;
+    right:18vh;
     background-color: #6a040f;
     display: none;
 }
 
 .subMenu li{
-    width:15vw;
+    width:12vw;
     height:6vh;
     margin-top:0.5vh;
     margin-bottom:1vh;
