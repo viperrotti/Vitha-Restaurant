@@ -34,7 +34,6 @@ ul{
     text-decoration: none;
 }
 
-
 a{
     text-decoration: none;
 }
@@ -297,6 +296,33 @@ li{
 }
 
 @media(max-width: 800px) and (min-width: 360px){
+    .headerContainer{
+        justify-content: space-evenly;
+    }
+    
+    .logo{
+        width:35vw;
+    }
+    
+    ul{
+        justify-content: space-evenly;
+    }
+    
+    li{
+        width:10vw;
+        font-size: 4.2vw;
+    }
+    
+    .subMenu{
+        width:35vw;
+        right:5vh;
+    }
+    
+    .subMenu li{
+        width:35vw;
+        font-size: 4.2vw;
+    }
+    
     .carouselImages{
         height:60vh;
     }

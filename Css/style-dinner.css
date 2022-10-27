@@ -117,7 +117,6 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* border: 0.2rem solid rgb(100, 93, 85); */
     height: 35vh;
 }
 
@@ -142,7 +141,6 @@ li{
 
 .item img{
     width: 15vw;
-    /* border: 0.3rem solid rgb(100, 93, 85); */
     border-radius: 1vh;
 }
 
@@ -162,7 +160,6 @@ li{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* border: 0.3rem solid rgb(100, 93, 85); */
 }
 
 .descricao h4{
@@ -217,13 +214,33 @@ li{
 }
 
 @media(max-width: 800px) and (min-width: 360px){
+    .headerContainer{
+        justify-content: space-evenly;
+    }
     
-    /* .page2{
-        height: 70vh;
-        width: 100%;
-        padding-top: 25vh;
-    } */
-
+    .logo{
+        width:35vw;
+    }
+    
+    ul{
+        justify-content: space-evenly;
+    }
+    
+    li{
+        width:10vw;
+        font-size: 4.2vw;
+    }
+    
+    .subMenu{
+        width:35vw;
+        right:5vh;
+    }
+    
+    .subMenu li{
+        width:35vw;
+        font-size: 4.2vw;
+    }
+    
     .content-menu{
         display: flex;
         flex-flow: wrap column;
@@ -246,13 +263,11 @@ li{
     }
 
     .item-image{
-        /* border: 0.3rem solid rgb(100, 93, 85); */
         display: flex;
     }
     
     .item img{
         width: 80%;
-        /* border: 0.3rem solid rgb(100, 93, 85); */
         border-radius: 0vh;
         margin:auto;
     }
