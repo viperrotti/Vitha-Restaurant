@@ -243,17 +243,17 @@ button{
         flex-direction: column;
         justify-content: center;
         align-items: center;  
-        margin-top: 5vh;
+        margin-top: 15vh;
     }
     
     .forms{
         width: 85vw;
-        height: 90vh;
+        height: 100vh;
     }
     
     .forms form{
         width: 70vw;
-        height: 60vh;
+        height: 77vh;
         display:flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -293,7 +293,7 @@ button{
     }
     
     .socialmedia img{
-        height: 5vh;
+        height: 3vh;
         padding-left: 3vw;
     }
     
@@ -302,16 +302,9 @@ button{
         display: flex;
         align-items: center;
     }
-
-    .logoMain{
-        border-radius: 50%;
-        height:20vh;
-        border:solid #6a040f;
-        margin-top:214vh;
-    }
     
     .container-footer{
-        margin-top: 8vh;
+        margin-top: 15vh;
     }
     
     .container-footer img{
