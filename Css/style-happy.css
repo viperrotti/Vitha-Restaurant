@@ -246,3 +246,103 @@ li{
     margin-top: 2vh;
     margin-bottom:1vh;
 }
+
+@media(max-width: 800px) and (min-width: 360px){
+    .backgroundHappy{
+        height:20vh;
+        background-image: url('../Images/happyhourPhoto.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        margin-top:4vh;
+    }
+    
+    .firstContainerMain{
+        margin-top: 7vh;
+    }
+    
+    .firstContainerMain div{
+        width:30vw;
+        height: 6vh;
+        text-align: center;
+    }
+    
+    .firstContainerMain h2{
+        font-size:3.5vw;
+    }
+    
+    .firstContainerMain h2:hover{
+        font-weight: 500;
+    }
+    
+    .containerTitle{
+        margin-top:-6vh;
+        margin-bottom:15vh;
+    }
+    
+    .containerTitle h2{
+        color:black;
+        font-size:6vw;
+    }
+    
+    .dash{
+        width: 40vw;
+    }
+    
+    .dishes{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .dishes img{
+        width:100%;
+    }
+    
+    .dishes article{
+        width:100%;
+        height:30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dishes h3{
+        font-size:7vw;
+    }
+    
+    .dishes p{
+        width:90%;
+        height:60vh;
+        font-size:4vw;
+        margin-top:2vh;
+        margin-bottom: 18vh;
+    }
+
+    .logoMain{
+        border-radius: 50%;
+        height:20vh;
+        border:solid #6a040f;
+    }
+    
+    .container-footer{
+        margin-top: 5vh;
+    }
+    
+    .container-footer img{
+        width: 30vw;
+    }
+    
+    .container-footer h4{
+        font-size: 3.2vw;
+        margin-top: 2vh;
+        margin-bottom:1vh;
+    }
+
+    .container-footer p{
+        font-size: 2.8vw;
+    }   
+}
