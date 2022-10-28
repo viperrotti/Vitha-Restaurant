@@ -325,7 +325,7 @@ li{
         width:100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
     
     .dishes img{
@@ -346,7 +346,7 @@ li{
     
     .dishes p{
         width:90%;
-        height:60vh;
+        height:15vh;
         font-size:4vw;
         margin-top:2vh;
         margin-bottom: 22vh;
